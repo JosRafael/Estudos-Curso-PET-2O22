@@ -2,7 +2,7 @@
 include("conexao.php");
 
 $email = $_POST["email"];
-$senha = md5($_POST["senha"]);
+$senha = ($_POST["senha"]);
 
 $sql = "INSERT INTO usuario (email, senha, created_at) VALUES ('$email', '$senha', NOW())";
 

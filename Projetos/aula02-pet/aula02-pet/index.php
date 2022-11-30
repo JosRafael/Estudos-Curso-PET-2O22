@@ -156,8 +156,8 @@ include("conexao.php");
             <td> <?php echo $dados["created_at"]; ?> </td>
             <td>
               <div class='btn-group'>
-                <a class='btn btn-success' href='edit.php?id=<?= $dados["id"]?>'>Editar</a>
-                <a class='btn btn-danger' href='delet.php?id=<?= $dados["id"]?>'>Deletar</a>
+                <a class='btn btn-success' href='edit.php?id=<?= $dados["id"] ?>'>Editar</a>
+                <a class='btn btn-danger' href='delet.php?id=<?= $dados["id"] ?>'>Deletar</a>
               </div>
             </td>
           </tr>
